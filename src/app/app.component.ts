@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shoping-list';
+
+  activeNav = 'recipe';
+
+  onNavigate(feature: string) {
+    this.activeNav = feature;
+  }
 }
